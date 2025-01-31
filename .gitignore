@@ -1,1 +1,4 @@
-dataset/*.csv
+# Ignore all CSV files in dataset directory and its subdirectories
+dataset/**/*.csvdataset/
+dataset/**
+*.csv
